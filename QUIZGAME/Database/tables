@@ -1,0 +1,30 @@
+create table questions (
+    id int primary key,
+    Q varchar(255) ,
+    A varchar(255) ,
+    B varchar(255) ,
+    C varchar(255) ,
+    D varchar(255) ,
+    answer varchar(5) ,
+    nr integer 
+);
+//
+set sql
+insert into question (id) values(%d);
+//insert questions
+
+UPDATE questions SET Q=%s WHERE id=%d;
+
+insert into questions (id,Q) values
+insert into questions ();
+
+
+create table player (
+id int ,
+client int primary key,
+nume varchar(255),
+score int);
+
+//
+insert into player(id,client,nume,score) 
+values (%d,%d,'%s',%d);

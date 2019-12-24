@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="ie ie6 lte9 lte8 lte7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7 lte9 lte8 lte7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 lte9 lte8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 9]>
+<html class="ie ie9" lang="en-US" prefix="og: http://ogp.me/ns#"> 
+<![endif]-->
+<!--[if gt IE 9]>  <html lang="en-US" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if !IE]>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	
+	<link type="text/css" media="all" href="https://www.sanfoundry.com/wp-content/cache/autoptimize/css/autoptimize_44474843b60a52304a229d563979bd43.css" rel="stylesheet" /><title>Software Engineering Ethics Questions and Answers - Sanfoundry</title>
+	
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://www.sanfoundry.com/xmlrpc.php" />
+	
+	<!-- IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="https://www.sanfoundry.com/wp-content/themes/ifeaturepro5/inc/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+	
+	
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.sanfoundry.com/software-engg-mcqs-software-engineering-ethics-1/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Software Engineering Ethics Questions and Answers - Sanfoundry" />
+<meta property="og:description" content="This set of Software Engineering Multiple Choice Questions &#038; Answers (MCQs) focuses on &#8220;Software Engineering Ethics &#8211; 1&#8221;. 1. Choose the correct option in terms of Issues related to professional responsibility a) Confidentiality b) Intellectual property rights c) Both Confidentiality &#038; Intellectual property rights d) Managing Client Relationships 2. &#8220;Software engineers should not use theirRead More..." />
+<meta property="og:url" content="https://www.sanfoundry.com/software-engg-mcqs-software-engineering-ethics-1/" />
+<meta property="og:site_name" content="Sanfoundry" />
+<meta property="article:section" content="Software Engineering MCQs" />
+<meta property="article:published_time" content="2013-07-23T10:00:03+00:00" />
+<meta property="article:modified_time" content="2018-07-19T13:27:24+00:00" />
+<meta property="og:updated_time" content="2018-07-19T13:27:24+00:00" />
+<meta property="og:image" content="https://www.sanfoundry.com/wp-content/uploads/2014/08/Software-Engineering-1000-MCQs.png" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Sanfoundry &raquo; Feed" href="https://www.sanfoundry.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sanfoundry &raquo; Comments Feed" href="https://www.sanfoundry.com/comments/feed/" />
+			<link rel="shortcut icon" href="https://www.sanfoundry.com/wp-content/uploads/2017/05/sanfoundry-favicon-1.png" type="image/x-icon"/>
+					<link rel="apple-touch-icon" href="https://www.sanfoundry.com/wp-content/uploads/2017/05/sanfoundry-favicon-2.png"/>
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/www.sanfoundry.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript' src='https://static.mailerlite.com/js/jquery.validate.min.js'></script>
+
+
+
+
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.sanfoundry.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.sanfoundry.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='https://www.sanfoundry.com/?p=23632' />
+<script type='text/javascript'>
+var e_mailit_config = {display_counter:true,TwitterID:'sanfoundry',follow_services:{},thanks_message:'Thanks for sharing!',mobile_bar:false,after_share_dialog:false,display_ads:false,hover_pinit:false,open_on:'onclick',emailit_branding:true};(function() {	var b=document.createElement('script');	
+                        b.type='text/javascript';b.async=true;
+	
+                        b.src='//www.e-mailit.com/widget/menu3x/js/button.js';
+	
+                        var c=document.getElementsByTagName('head')[0];	c.appendChild(b) })()</script>
+    <!-- MailerLite Universal -->
+    <script>
+        (function (m, a, i, l, e, r) {
+            m['MailerLiteObject'] = e;
+
+            function f() {
+                var c = {a: arguments, q: []};
+                var r = this.push(c);
+                return "number" != typeof r ? r : f.bind(c.q);
+            }
+
+            f.q = f.q || [];
+            m[e] = m[e] || f.bind(f.q);
+            m[e].q = m[e].q || f.q;
+            r = a.createElement(i);
+            var _ = a.getElementsByTagName(i)[0];
+            r.async = 1;
+            r.src = l + '?' + (~~(new Date().getTime() / 10000000));
+            _.parentNode.insertBefore(r, _);
+        })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+        var ml_account = ml('accounts', '381541', 'z7o9v6x3r7', 'load');
+    </script>
+    <!-- End MailerLite Universal -->
+<script data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.hitTime = Date.now();
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;
+
+  // Tag IDs set here, must match Tags served in the Body for proper setup
+  freestar.config.enabled_slots = [
+    "Sanfoundry_728x90_970x90_970x250_320x50_ATF",
+    "Sanfoundry_300x250_320x50_BTF_1",
+    "Sanfoundry_300x250_320x50_BTF_2",
+    "Sanfoundry_300x250_320x50_BTF_3",
+    "Sanfoundry_300x250_320x50_BTF_4",
+    "SanFoundry_300x250_320x50_320x100_inlist1",
+    "SanFoundry_300x250_320x50_320x100_inlist2",
+    "SanFoundry_300x250_320x50_320x100_inlist3"
+  ];
+
+  !function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/sanfoundry";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
+</script>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-25734021-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25734021-1');
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=139987706155608";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<script>(function(a,b,c,d,e){e=a.createElement(b);a=a.getElementsByTagName(b)[0];e.async=1;e.src=c;a.parentNode.insertBefore(e,a)})(document,'script','//hammerhearing.com/2a610c8ea226821d0a90e9c74b32d34c46d16031c8e6e697f6d45ad856f8a0aadbb5cde0d54ea15ba7f15f4f720c05508b37d46a267fc4346b8e95e73585');</script>
+	
+	
+
+		
+		</head>
+
+<body class="single single-post postid-23632 single-format-standard cc-responsive">
+	
+<!-- ******************* Top Header ******************** -->
+
+<!-- ********************** Header ******************** -->
+
+<div id="header_section" class="container-full-width">
+	
+	<div class="container">
+		
+				
+			<div class="container-fluid">	
+				
+					<header id="cc-header" class="row-fluid">
+		<div id="banner">
+							<a href="//www.sanfoundry.com"><img src="//www.sanfoundry.com/wp-content/uploads/2016/12/sanfoundry-header-1120x90.png" alt="logo"></a>
+								</div>
+	</header>
+			
+			</div><!-- container fluid -->
+	
+	</div><!-- container -->
+
+</div><!-- container full width -->
+	
+
+<!-- ******************** Menu *********************** -->
+
+<div class="container-full-width" id="main_navigation">
+	<div class="container">
+		<div class="container-fluid">
+			<nav id="navigation" role="navigation">
+		      <div class="main-navigation navbar navbar-inverse">
+		        <div class="navbar-inner">
+		        	<div class="container">
+		          			  					<div class="nav-collapse collapse">
+		            		          		<div class="menu-headermenu-container"><ul id="menu-headermenu" class="nav"><li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-117"><a href="https://www.sanfoundry.com">Home</a></li>
+<li id="menu-item-227206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227206"><a href="https://rank.sanfoundry.com">Test &#038; Rank</a></li>
+<li id="menu-item-311" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-311"><a href="https://www.sanfoundry.com/about/">About</a></li>
+<li id="menu-item-313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313"><a href="https://www.sanfoundry.com/coursesfees/">Training</a></li>
+<li id="menu-item-205251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205251"><a href="https://www.sanfoundry.com/programming-questions-answers/">Programming</a></li>
+<li id="menu-item-205268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205268"><a href="https://www.sanfoundry.com/computer-science-questions-answers/">CS</a></li>
+<li id="menu-item-205252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205252"><a href="https://www.sanfoundry.com/information-technology-questions-answers/">IT</a></li>
+<li id="menu-item-205257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205257"><a href="https://www.sanfoundry.com/information-science-questions-answers/">IS</a></li>
+<li id="menu-item-205258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205258"><a href="https://www.sanfoundry.com/electronics-communication-engineering-questions-answers/">ECE</a></li>
+<li id="menu-item-205259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205259"><a href="https://www.sanfoundry.com/electrical-electronics-engineering-questions-answers/">EEE</a></li>
+<li id="menu-item-205260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205260"><a href="https://www.sanfoundry.com/electrical-engineering-questions-answers/">EE</a></li>
+<li id="menu-item-205250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205250"><a href="https://www.sanfoundry.com/civil-engineering-questions-answers/">Civil</a></li>
+<li id="menu-item-205254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205254"><a href="https://www.sanfoundry.com/mechanical-engineering-questions-answers/">Mechanical</a></li>
+<li id="menu-item-205264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205264"><a href="https://www.sanfoundry.com/chemical-engineering-questions-answers/">Chemical</a></li>
+<li id="menu-item-205253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205253"><a href="https://www.sanfoundry.com/metallurgical-engineering-questions-answers/">Metallurgy</a></li>
+<li id="menu-item-205256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205256"><a href="https://www.sanfoundry.com/instrumentation-engineering-questions-answers/">Instrumentation</a></li>
+<li id="menu-item-205266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205266"><a href="https://www.sanfoundry.com/aeronautical-engineering-questions-answers/">Aeronautical</a></li>
+<li id="menu-item-205267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205267"><a href="https://www.sanfoundry.com/aerospace-engineering-questions-answers/">Aerospace</a></li>
+<li id="menu-item-205265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205265"><a href="https://www.sanfoundry.com/biotechnology-questions-answers/">Biotechnology</a></li>
+<li id="menu-item-236719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236719"><a href="https://www.sanfoundry.com/mining-engineering-questions-answers/">Mining</a></li>
+<li id="menu-item-236720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236720"><a href="https://www.sanfoundry.com/marine-engineering-questions-answers/">Marine</a></li>
+<li id="menu-item-205263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205263"><a href="https://www.sanfoundry.com/agricultural-engineering-questions-answers/">Agriculture</a></li>
+<li id="menu-item-205255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205255"><a href="https://www.sanfoundry.com/master-computer-applications-questions-answers/">MCA</a></li>
+<li id="menu-item-205262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205262"><a href="https://www.sanfoundry.com/bachelor-computer-applications-questions-answers/">BCA</a></li>
+<li id="menu-item-54941" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54941"><a href="https://www.sanfoundry.com/internship/">Internship</a></li>
+<li id="menu-item-236721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236721"><a href="https://www.sanfoundry.com/jobs/">Jobs</a></li>
+<li id="menu-item-317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-317"><a href="https://www.sanfoundry.com/contact/">Contact</a></li>
+</ul></div>					
+																			
+											<form method="get"  id="searchform" class="navbar-search pull-right" action="https://www.sanfoundry.com/" role="search">
+	<input type="text" class="search-query input-medium" name="s" placeholder="Search …" />
+</form>
+<div class="clear"></div>										
+															      
+						      									</div><!-- collapse -->
+									
+						            <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+						            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						              <span class="icon-bar"></span>
+						              <span class="icon-bar"></span>
+						              <span class="icon-bar"></span>
+						            </a>
+						      		          </div><!-- container -->
+		        </div><!-- .navbar-inner .row-fluid -->
+		      </div><!-- main-navigation navbar -->
+			</nav><!-- #navigation -->
+		</div><!-- container fluid -->
+	</div><!-- container -->
+</div><!-- container full width -->
+	
+	
+<div id="single_page" class="container-full-width">
+	
+	<div class="container">
+		
+		<div class="container-fluid">
+		
+						
+			<div id="container" class="row-fluid">
+				
+				<div style="margin-top: 10px; margin-bottom: 10px; text-align: center; border: 1px solid #E5E5E5; background: #FDFDFD">
+<!-- Tag ID: Sanfoundry_728x90_970x90_970x250_320x50_ATF -->
+<div align="center" id="Sanfoundry_728x90_970x90_970x250_320x50_ATF">
+    <script data-cfasync="false" type='text/javascript'>
+        freestar.queue.push(function () { googletag.display('Sanfoundry_728x90_970x90_970x250_320x50_ATF'); });
+    </script>
+</div>
+</div>
+	
+<div id="secondary" class="widget-area span3">
+	
+		
+	<div id="sidebar">
+	<aside id="text-70" class="widget-container widget_text"><h3 class="widget-title">Software Engineering Multiple Choice Questions | MCQs | Quiz</h3>			<div class="textwidget"><div class="sf_sidebar">
+<img src="https://www.sanfoundry.com/wp-content/uploads/2017/10/software-engineering-interview-questions-answers-img.png" alt="Software Engineering Interview Questions and Answers" class="aligncenter" width="150px" height="150px">
+</div>
+<div class="sf-postw-category" style="text-align:justify">
+Practice Software Engineering questions and answers for interviews, campus placements, online tests, aptitude tests, quizzes and competitive exams.<br>
+<br>
+</div>
+<h3 class="sf-widget-title">Get Started</h3>
+<div class="sf-postw-category">
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-engineering-ethics-1/">&bull;&nbsp;&nbsp;  SE Ethics - 1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-interview-questions-answers-2/">&bull;&nbsp;&nbsp;  SE Ethics - 2 </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-life-cycle-models/">&bull;&nbsp;&nbsp;  Software Life Cycle Models </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-campus-interviews/">&bull;&nbsp;&nbsp;  Software Process Models </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-selection-life-cycle-model/">&bull;&nbsp;&nbsp; Life Cycle Models Selection </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-fourth-generation-techniques/">&bull;&nbsp;&nbsp;  4<sup>th</sup> Generation Techniques  </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-process-product-1/">&bull;&nbsp;&nbsp;  Software Process - 1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-freshers/">&bull;&nbsp;&nbsp;  Software Process - 2 </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-agile-software-development/">&bull;&nbsp;&nbsp;  Agile Software Development</a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-extreme-programming/">&bull;&nbsp;&nbsp;  Extreme Programming</a><br>
+&bull;&nbsp;&nbsp; &darr; Requirement &darr;<br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-requirement-engineering/">&bull;&nbsp;&nbsp; Requirement Engineering  </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-functional-non-functional-requirements/">&bull;&nbsp;&nbsp;  Functional Requirements </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-requirement-elicitation/">&bull;&nbsp;&nbsp; Requirement Elicitation  </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-requirement-elicitation-techniques-1/">&bull;&nbsp;&nbsp;  Elicitation Techniques - 1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-interview-questions-answers-freshers/">&bull;&nbsp;&nbsp;  Elicitation Techniques - 2  </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-requirement-analysis/">&bull;&nbsp;&nbsp;  Requirement Analysis </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-requirement-documentation/">&bull;&nbsp;&nbsp;  Documentation </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-requirement-management/">&bull;&nbsp;&nbsp;  Requirement Management </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-system-modelling-1/">&bull;&nbsp;&nbsp;  System Modelling - 1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-experienced/">&bull;&nbsp;&nbsp;  System Modelling - 2 </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-evolution/">&bull;&nbsp;&nbsp;  Software Evolution </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-sociotechnical-systems/">&bull;&nbsp;&nbsp;  Sociotechnical Systems </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-dependability-security/">&bull;&nbsp;&nbsp;  Dependability & Security </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-dependability-security-specification/">&bull;&nbsp;&nbsp;  Security Specification </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-dependability-engineering/">&bull;&nbsp;&nbsp;  Dependability Engineering </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-security-engineering/">&bull;&nbsp;&nbsp;  Security Engineering </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-dependability-security-assurance/">&bull;&nbsp;&nbsp;  Security Assurance </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-design/">&bull;&nbsp;&nbsp;  Software Design </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-modularity-software-design/">&bull;&nbsp;&nbsp; Software Design Modularity</a><br>
+&bull;&nbsp;&nbsp; &darr; Software Design &darr;<br>
+<a href="https://www.sanfoundry.com/software-engineering-basic-questions-answers/">&bull;&nbsp;&nbsp;  Function Oriented Design </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-online-quiz/">&bull;&nbsp;&nbsp; Structured Analysis </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-object-oriented-software-design-1/">&bull;&nbsp;&nbsp;  Object Oriented Design - 1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-interview-questions-answers-experienced/">&bull;&nbsp;&nbsp;  Object Oriented Design - 2 </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-types-software-metrics/">&bull;&nbsp;&nbsp;  Software Metrics Types</a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-web-engineering-project-metrics/">&bull;&nbsp;&nbsp;  Web Engineering Project </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-metrics-analysis/">&bull;&nbsp;&nbsp;  Metrics Analysis </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-metrics-quality-control/">&bull;&nbsp;&nbsp; Quality Control Metrics</a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-project-management/">&bull;&nbsp;&nbsp;  Project Management </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-project-planning/">&bull;&nbsp;&nbsp;  Project Planning </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-size-cost-estimation-software/">&bull;&nbsp;&nbsp;  Software Cost Estimation</a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-empirical-estimation-models/">&bull;&nbsp;&nbsp;  Emperical Estimation Model </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-risks-identification/">&bull;&nbsp;&nbsp;  Software Identification </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-risk-management/">&bull;&nbsp;&nbsp;  Risk Management </a><br>
+&bull;&nbsp;&nbsp; &darr; Software Projects &darr;<br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-bank/">&bull;&nbsp;&nbsp;  Decomposition Techniques</a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-managing-software-projects-1/">&bull;&nbsp;&nbsp;  Managing Projects - 1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-test/">&bull;&nbsp;&nbsp;  Managing Projects - 2 </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-project-scheduling-tracking/">&bull;&nbsp;&nbsp; Scheduling & Tracking </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-configuration-management-1/">&bull;&nbsp;&nbsp; Configuration Management1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-quiz/">&bull;&nbsp;&nbsp; Configuration Management2 </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-maintenance-1/">&bull;&nbsp;&nbsp;  Software Maintenance - 1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-mcqs/">&bull;&nbsp;&nbsp;  Software Maintenance - 2 </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-certification/">&bull;&nbsp;&nbsp;  Software Certification </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-process-improvement/">&bull;&nbsp;&nbsp;  Process Improvement </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-quality-assurance/">&bull;&nbsp;&nbsp;  Software Quality Assurance </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-iso-9001-cmm/">&bull;&nbsp;&nbsp;  ISO 9001 & CMM </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-architectural-design/">&bull;&nbsp;&nbsp;  Architectural Design </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-architectural-patterns/">&bull;&nbsp;&nbsp;  Architectural Patterns</a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-application-architectures/">&bull;&nbsp;&nbsp;  Application Architectures </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-unified-modelling-language/">&bull;&nbsp;&nbsp;  Unified Modelling Language </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-building-blocks-uml/">&bull;&nbsp;&nbsp; UML Building Blocks</a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-diagrams-uml-1/">&bull;&nbsp;&nbsp;  UML Diagrams - 1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-multiple-choice-questions-answers/">&bull;&nbsp;&nbsp; UML Diagrams - 2 </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-object-oriented-design-UML/">&bull;&nbsp;&nbsp;  Object Oriented Design </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-analysis-modelling/">&bull;&nbsp;&nbsp;  Analysis Modelling </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-component-level-design/">&bull;&nbsp;&nbsp;  Component Level Design </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-user-interface-design/">&bull;&nbsp;&nbsp;  User Interface Design </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-test-case-design/">&bull;&nbsp;&nbsp;  Test Case Design </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-design-pattern/">&bull;&nbsp;&nbsp;  Software Design Pattern </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-reuse/">&bull;&nbsp;&nbsp;  Software Reuse </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-entrance-exams/">&bull;&nbsp;&nbsp;  Application Frameworks  </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-problems/">&bull;&nbsp;&nbsp;  SE Formal Methods</a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-cleanroom-software-engineering/">&bull;&nbsp;&nbsp;  Cleanroom SE </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-aptitude-test/">&bull;&nbsp;&nbsp;  Component Based SE </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-distributed-software-engineering/">&bull;&nbsp;&nbsp;  Distributed SE </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-service-oriented-architecture/">&bull;&nbsp;&nbsp;  Service Architecture </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-embedded-software/">&bull;&nbsp;&nbsp;  Embedded Software </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-assessment-questions-answers/">&bull;&nbsp;&nbsp;  Aspect Oriented SE </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-client-server-software-engineering/">&bull;&nbsp;&nbsp;  Client Server SE </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-web-engineering/">&bull;&nbsp;&nbsp;  Web Engineering </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-re-engineering/">&bull;&nbsp;&nbsp;  Software Re-engineering </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-reverse-engineering/">&bull;&nbsp;&nbsp;  Reverse Engineering </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-computer-aided-software-engineering/">&bull;&nbsp;&nbsp;  Computer Aided SE </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-using-case-tools/">&bull;&nbsp;&nbsp;  Using CASE Tools </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-reliability/">&bull;&nbsp;&nbsp;  Software Reliability </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-fault-tolerance/">&bull;&nbsp;&nbsp;  Fault Tolerance </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-reliability-models/">&bull;&nbsp;&nbsp;  Software Reliability Models </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-testing-techniques-1/">&bull;&nbsp;&nbsp; Testing Techniques - 1 </a><br>
+<a href="https://www.sanfoundry.com/software-engineering-questions-answers-online-test/">&bull;&nbsp;&nbsp; Testing Techniques - 2 </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-testing-strategies/">&bull;&nbsp;&nbsp;  Software Testing Strategies </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-object-oriented-testing/">&bull;&nbsp;&nbsp;  Object Oriented Testing </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-debugging-techniques-approaches/">&bull;&nbsp;&nbsp;  Debugging Techniques </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-testing-tools/">&bull;&nbsp;&nbsp;  Testing Tools </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-monitoring/">&bull;&nbsp;&nbsp;  Software Monitoring </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-software-control/">&bull;&nbsp;&nbsp;  Software Control </a><br>
+<a href="https://www.sanfoundry.com/software-engg-mcqs-quality-management/">&bull;&nbsp;&nbsp;  Quality Management </a><br>
+<br>
+</div>
+<h3 class="sf-widget-title">Best Reference Books</h3>
+<div class="sf-postw-category">
+<a href="https://www.sanfoundry.com/best-reference-books-software-engineering/">Software Engineering Books</a><br>
+</div>
+
+<h3 class="sf-test-widget-title">Software Engineering Tests</h3>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-certification-test/">Certification Test</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-internship-test/">Internship Test</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-job-test/">Job Test</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-tests/">All Tests</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/top-rankers-software-engineering/">Top Rankers</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-1/">Practice Test 1</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-2/">Practice Test 2</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-3/">Practice Test 3</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-4/">Practice Test 4</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-5/">Practice Test 5</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-6/">Practice Test 6</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-7/">Practice Test 7</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-8/">Practice Test 8</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-9/">Practice Test 9</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-practice-test-10/">Practice Test 10</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-1/">Mock Test 1</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-2/">Mock Test 2</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-3/">Mock Test 3</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-4/">Mock Test 4</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-5/">Mock Test 5</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-6/">Mock Test 6</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-7/">Mock Test 7</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-8/">Mock Test 8</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-9/">Mock Test 9</a></div>
+<div class="sf-test-widget-button"><a rel="nofollow" target="_blank" href="https://rank.sanfoundry.com/software-engineering-mock-test-10/">Mock Test 10</a></div>
+    </div>
+		</aside>	</div><!-- #sidebar -->
+	
+		
+</div><!-- #secondary .widget-area .span3 -->				
+				<div id="content" class=" span6 content-sidebar-2">
+					
+					          <div style="padding: 0px 2px 0px 2px;  border: 0px solid #E5E5E5; background: #FDFDFD;">
+          <div style="float: left; text-align: left;">
+                    </div> <div style="float: right; text-align: right;">
+          <a href="https://www.sanfoundry.com/software-engineering-interview-questions-answers-2/" rel="next">Next Page</a> &raquo;          </div><div style="clear:both";></div></div>
+         					
+								
+						
+<article id="post-23632" class="post-23632 post type-post status-publish format-standard has-post-thumbnail hentry category-software-engineering-mcqs">
+	
+	<header class="entry-header">
+		
+		<h1 class="entry-title">						Software Engineering Questions &#038; Answers &#8211; Software Engineering Ethics &#8211; 1		</h1>			<div class="entry-meta">
+				Posted on <a href="https://www.sanfoundry.com/software-engg-mcqs-software-engineering-ethics-1/" title="10:00 am" rel="bookmark">
+							<time class="entry-date updated" datetime="2013-07-23T10:00:03+00:00">July 23, 2013</time>
+						</a><span class="byline"> by <span class="author vcard">
+								<a class="url fn n" href="https://www.sanfoundry.com/author/bhojas/" title="View all posts by Manish" rel="author">Manish</a>
+							</span>
+						</span>			</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+  
+	  
+		<div class="entry-content">
+    				<p>This set of Software Engineering Multiple Choice Questions &#038; Answers (MCQs) focuses on &#8220;Software Engineering Ethics &#8211; 1&#8221;.</p>
+<p>1. Choose the correct option in terms of Issues related to professional responsibility<br />
+a) Confidentiality<br />
+b) Intellectual property rights<br />
+c) Both Confidentiality &#038; Intellectual property rights<br />
+d) Managing Client Relationships<br />
+<span class="collapseomatic " id="id5465"  tabindex="" title="View Answer">View Answer</span><div id="target-id5465" class="collapseomatic_content "> Answer: c<br />
+Explanation: Engineers should normally respect the confidentiality of their employers or clients irrespective of whether or not a formal confidentiality agreement has been signed.<br />
+They should be aware of local laws governing the use of intellectual property such  as patents, copyright, etc.</div>
+
+	<div class="mobile-incontent-ads">
+	<div style="font-size:13px; text-align: center;">advertisement</div>
+	<!-- Tag ID: SanFoundry_300x250_320x50_320x100_inlist1 -->
+	<div align="center" id="SanFoundry_300x250_320x50_320x100_inlist1">
+	<script data-cfasync="false" type="text/javascript">
+	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist1'); });
+	</script>
+	</div>
+	</div>
+	<p>2. &#8220;Software engineers should not use their technical skills to <em>misuse</em> other people’s computers.&#8221;Here the term <em>misuse</em> refers to:<br />
+a) Unauthorized access to computer material<br />
+b) Unauthorized modification of computer material<br />
+c) Dissemination of viruses or other malware<br />
+d) All of the mentioned<br />
+<span class="collapseomatic " id="id1508"  tabindex="" title="View Answer">View Answer</span><div id="target-id1508" class="collapseomatic_content "> Answer: d<br />
+Explanation: None.</div>
+<p>3. Explain what is meant by <em>PRODUCT</em> with reference to one of the eight principles as per the ACM/IEEE Code of Ethics ?<br />
+a) The product should be easy to use<br />
+b) Software engineers shall ensure that their products and related modifications meet the highest professional standards possible<br />
+c) Software engineers shall ensure that their products and related modifications satisfy the client<br />
+d) It means that the product designed /created should be easily available<br />
+<span class="collapseomatic " id="id8587"  tabindex="" title="View Answer">View Answer</span><div id="target-id8587" class="collapseomatic_content "> Answer: b<br />
+Explanation: None.</div>
+<p>4. Identify an ethical dilemma from the situations mentioned below:<br />
+a) Your employer releases a safety-critical system without finishing the testing of the system<br />
+b) Refusing to undertake a project<br />
+c) Agreement in principle with the policies of senior management<br />
+d) All of the mentioned<br />
+<span class="collapseomatic " id="id9518"  tabindex="" title="View Answer">View Answer</span><div id="target-id9518" class="collapseomatic_content "> Answer: a<br />
+Explanation: None.</div>
+<p>5. Identify the correct statement: &#8220;Software engineers shall<br />
+a) act in a manner that is in the best interests of his expertise and favour.&#8221;<br />
+b) act consistently with the public interest.&#8221;<br />
+c) ensure that their products only meet the SRS.&#8221;<br />
+d) all of the mentioned<br />
+<span class="collapseomatic " id="id6691"  tabindex="" title="View Answer">View Answer</span><div id="target-id6691" class="collapseomatic_content "> Answer: b<br />
+Explanation: Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest and shall ensure that their products and related modifications meet the highest professional standards possible.Thus options a &#038; c are ruled out.</div>
+
+	<div class="mobile-incontent-ads">
+	<div style="font-size:13px; text-align: center;">advertisement</div>
+	<!-- Tag ID: SanFoundry_300x250_320x50_320x100_inlist2 -->
+	<div align="center" id="SanFoundry_300x250_320x50_320x100_inlist2">
+	<script data-cfasync="false" type="text/javascript">
+	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist2'); });
+	</script>
+	</div>
+	</div>
+	<p>6. Select the incorrect statement: &#8220;Software engineers should<br />
+a) not knowingly accept work that is outside your competence.&#8221;<br />
+b) not use your technical skills to misuse other people’s computers.&#8221;<br />
+c) be dependent on their colleagues.&#8221;<br />
+d) maintain integrity and independence in their professional judgment.&#8221;<br />
+<span class="collapseomatic " id="id237"  tabindex="" title="View Answer">View Answer</span><div id="target-id237" class="collapseomatic_content "> Answer: c<br />
+Explanation:None.</div>
+<p>7. Efficiency in a software product does not include ________<br />
+a) responsiveness<br />
+b) licensing<br />
+c) memory utilization<br />
+d) processing time<br />
+<span class="collapseomatic " id="id1588"  tabindex="" title="View Answer">View Answer</span><div id="target-id1588" class="collapseomatic_content "> Answer: b<br />
+Explanation: Licensing of a software product comes under corporate part of the software company.</div>
+<p>8. As per an IBM report, “31%of the project get cancelled before they are completed, 53% overrun their cost estimates by an average of 189% and for every 100 projects, there are 94 restarts”.What is the reason for these statistics ?<br />
+a) Lack of adequate training in software engineering<br />
+b) Lack of software ethics and understanding<br />
+c) Management issues in the company<br />
+d) All of the mentioned<br />
+<span class="collapseomatic " id="id3292"  tabindex="" title="View Answer">View Answer</span><div id="target-id3292" class="collapseomatic_content "> Answer: a<br />
+Explanation: Option b &#038; c are a part of Software Engineering as a subject,hence option a covers them both.</div>
+<p>9. The reason for software bugs and failures is due to<br />
+a) Software companies<br />
+b) Software Developers<br />
+c) Both Software companies and Developers<br />
+d) All of the mentioned<br />
+<span class="collapseomatic " id="id3282"  tabindex="" title="View Answer">View Answer</span><div id="target-id3282" class="collapseomatic_content "> Answer: c<br />
+Explanation: Software companies are responsible for making policies and providing working atmosphere for the software development, so in turn these companies become a part of software development process.Bugs from developers side is no new thing. Thus option c answers the question.</div>
+<p>10. Company has latest computers and state-of the- art software tools, so we shouldn&#8217;t worry about the quality of the product.<br />
+a) True<br />
+b) False<br />
+<span class="collapseomatic " id="id982"  tabindex="" title="View Answer">View Answer</span><div id="target-id982" class="collapseomatic_content "> Answer: b<br />
+Explanation: The infrastructure is only one of the several factors that determine the quality of the product.</div>
+
+	<div style="margin-top:20px; margin-bottom:20px;">
+	<div style="font-size:13px; text-align: center;">advertisement</div>
+	<!-- Tag ID: Sanfoundry_300x250_320x50_BTF_1 -->
+	<div align="center" id="Sanfoundry_300x250_320x50_BTF_1">
+	<script data-cfasync="false" type="text/javascript">
+	    freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_1'); });
+	</script>
+	</div>
+	</div>
+	<p><strong>Sanfoundry Global Education &#038; Learning Series – Software Engineering.</strong></p>
+<p><strong><a href="https://www.sanfoundry.com/best-reference-books-software-engineering/"> Here&#8217;s the list of Best Reference Books in Software Engineering</a>.</strong></p>
+<div style="text-align:justify">
+To practice all areas of Software Engineering, <u><a href="https://www.sanfoundry.com/software-engineering-questions-answers/">here is complete set of 1000+ Multiple Choice Questions and Answers on Software Engineering</a></u>.
+</div>
+<div></div><div>&raquo; <a href="https://www.sanfoundry.com/software-engineering-interview-questions-answers-2/" rel="next">Next Page - Software Engineering Questions and Answers &#8211; Software Engineering Ethics &#8211; 2</a></div><p><div class="e-mailit_bottom_toolbox"><div class="e-mailit_toolbox square size32 " data-emailit-url='https://www.sanfoundry.com/software-engg-mcqs-software-engineering-ethics-1/' data-emailit-title='Software Engineering Questions &#038; Answers &#8211; Software Engineering Ethics &#8211; 1'>
+<div class="e-mailit_btn_Facebook"></div>
+<div class="e-mailit_btn_Twitter"></div>
+<div class="e-mailit_btn_LinkedIn"></div>
+<div class="e-mailit_btn_Send_via_Email"></div>
+</div>
+</div>								</div><!-- .entry-content -->
+    
+    	
+			
+</article><!-- #post-23632 -->							
+					<div class="more-content">
+					  <div class="row-fluid">
+						<div class="span6 previous-post">
+						  &laquo; <a href="https://www.sanfoundry.com/cpp-program-print-ascii-table/" rel="prev">C++ Program to Print ASCII table (0 &#8211; 127)</a>						</div>
+						<div class="span6 next-post">
+						  <a href="https://www.sanfoundry.com/software-engineering-interview-questions-answers-2/" rel="next">Software Engineering Questions and Answers &#8211; Software Engineering Ethics &#8211; 2</a> &raquo;						</div>
+					  </div>
+					</div>
+				  
+									
+									
+						<div class="mobile-incontent-ads">
+	<div style="font-size:13px; text-align: center;">advertisement</div>
+	<!-- Tag ID: SanFoundry_300x250_320x50_320x100_inlist3 -->
+	<div align="center" id="SanFoundry_300x250_320x50_320x100_inlist3">
+	<script data-cfasync="false" type="text/javascript">
+	    freestar.queue.push(function () { googletag.display('SanFoundry_300x250_320x50_320x100_inlist3'); });
+	</script>
+	</div>
+	</div>
+	 <div class="sf-post" style="padding-top: 0px; padding-bottom: 0px;"> <div class='yarpp-related'>
+<h3>Deep Dive @ Sanfoundry:</h3><ol>
+<li><a href="https://www.sanfoundry.com/civil-engineering-questions-answers/" rel="bookmark" title="Civil Engineering Questions and Answers">Civil Engineering Questions and Answers </a></li>
+<li><a href="https://www.sanfoundry.com/1000-bioprocess-engineering-questions-answers/" rel="bookmark" title="Bioprocess Engineering Questions and Answers">Bioprocess Engineering Questions and Answers </a></li>
+<li><a href="https://www.sanfoundry.com/aeronautical-engineering-questions-answers/" rel="bookmark" title="Aeronautical Engineering Questions and Answers">Aeronautical Engineering Questions and Answers </a></li>
+<li><a href="https://www.sanfoundry.com/about/" rel="bookmark" title="About">About </a></li>
+<li><a href="https://www.sanfoundry.com/aerospace-engineering-questions-answers/" rel="bookmark" title="Aerospace Engineering Questions and Answers">Aerospace Engineering Questions and Answers </a></li>
+<li><a href="https://www.sanfoundry.com/agricultural-engineering-questions-answers/" rel="bookmark" title="Agricultural Engineering Questions and Answers">Agricultural Engineering Questions and Answers </a></li>
+<li><a href="https://www.sanfoundry.com/course-registration-2/" rel="bookmark" title="Course Registration &#8211; 2">Course Registration &#8211; 2 </a></li>
+<li><a href="https://www.sanfoundry.com/metallurgical-engineering-questions-answers/" rel="bookmark" title="Metallurgical Engineering Questions and Answers">Metallurgical Engineering Questions and Answers </a></li>
+<li><a href="https://www.sanfoundry.com/software-architecture-design-questions-answers/" rel="bookmark" title="Software Architecture &#038; Design Questions and Answers">Software Architecture &#038; Design Questions and Answers </a></li>
+<li><a href="https://www.sanfoundry.com/software-engineering-questions-answers/" rel="bookmark" title="Software Engineering Questions &#038; Answers">Software Engineering Questions &#038; Answers </a></li>
+</ol>
+</div>
+ </div> <div class="sf-post" style="margin: 0px 0px;">
+        <!--Carambola Script --> 
+<img height='0' width='0' alt='' src='//pixel.watch/iq5e' style='display:block;' /> 
+<script data-cfasync="false" class="carambola_InContent" type="text/javascript" cbola_wid="0">  
+(function (i,d,s,o,m,r,c,l,w,q,y,h,g) {  
+var e=d.getElementById(r);if(e===null){  
+var t = d.createElement(o); t.src = g; t.id = r; t.setAttribute(m, s);t.async = 1;var n=d.getElementsByTagName(o)[0];n.parentNode.insertBefore(t, n); 
+var dt=new Date().getTime();  
+try{i[l][w+y](h,i[l][q+y](h)+'&'+dt);}catch(er){i[h]=dt;}  
+} else if(typeof i[c]!=='undefined'){i[c]++}  
+else{i[c]=1;}  
+})(window, document, 'InContent', 'script', 'mediaType', 'carambola_proxy','Cbola_IC','localStorage','set','get','Item','cbolaDt','//route.carambo.la/inimage/getlayer?pid=snfn76&did=112284&wid=0')  
+</script>
+        </div>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+          <div class="sf-post" style="margin-bottom:5px;">
+<div style="float: left; text-align: left; padding-right: 20px;">
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="manishbhojasia"><a class="LI-simple-link" href='https://in.linkedin.com/in/manishbhojasia?trk=profile-badge'>Manish Bhojasia</a></div>
+</div><a href="https://www.sanfoundry.com/about/">Manish Bhojasia</a>, a technology veteran with 20+ years @ Cisco & Wipro, is Founder and CTO at Sanfoundry. He is Linux Kernel Developer & SAN Architect and is passionate about competency developments in these areas. He lives in Bangalore and delivers focused training sessions to IT professionals in Linux Kernel, Linux Debugging, Linux Device Drivers, Linux Networking, Linux Storage, Advanced C Programming, SAN Storage Technologies, SCSI Internals & Storage Protocols such as iSCSI & Fiber Channel. Stay connected with him @
+<a href="https://www.linkedin.com/in/manishbhojasia">LinkedIn</a> | <a href="https://www.facebook.com/sanfoundry">Facebook</a> | <a href="https://www.twitter.com/sanfoundry">Twitter</a>
+        </div>
+        					
+				</div><!-- #content -->
+				
+				
+<div id="secondary" class="widget-area span3">
+	
+		
+	<div id="sidebar">
+	<aside id="text-118" class="widget-container widget_text"><h3 class="widget-title">Best Careers</h3>			<div class="textwidget"><div class="sf-postw-category">
+<a href="https://www.sanfoundry.com/salary-50l/">Developer Tracks</a><br>
+<a href="https://www.sanfoundry.com/san-storage-developer-training-courses/">SAN Developer</a><br>
+<a href="https://www.sanfoundry.com/linux-kernel-developer-training-courses-jobs/">Linux Kernel Developer</a><br>
+<a href="https://www.sanfoundry.com/linux-device-driver-developer-training/">Linux Driver Developer</a><br>
+<a href="https://www.sanfoundry.com/linux-network-developer-training/">Linux Network Developer</a><br><br>
+<a href="https://www.sanfoundry.com/sanfoundry-classes/">Live Training Photos</a><br>
+<a href="https://www.sanfoundry.com/professional-mentoring-coaching-career-guidance-cto/">Mentoring</a><br>
+<a href="https://www.sanfoundry.com/programming-discipline-and-software/">Software Productivity</a><br>
+<a href="https://www.sanfoundry.com/gdb-example-tutorial/">GDB Assignment</a><br>
+</div>
+</div>
+		</aside><aside id="text-104" class="widget-container widget_text">			<div class="textwidget"><div style="text-align: center; ">
+<!-- Tag ID: Sanfoundry_300x250_320x50_BTF_4 -->
+<div align="center" id="Sanfoundry_300x250_320x50_BTF_4">
+    <script data-cfasync="false" type='text/javascript'>
+        freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_4'); });
+    </script>
+</div>
+</div>
+</div>
+		</aside><aside id="text-116" class="widget-container widget_text">			<div class="textwidget"><div style="text-align:justify;margin: 15px; padding:3px; background-color: #efefef">
+<em>
+Sanfoundry is <b>No. 1</b> choice for Deep Hands-ON Trainings in <b>SAN, Linux & C, Kernel Programming</b>. Our Founder has trained employees of almost all Top Companies in India such as VMware, Citrix, Oracle, Motorola, Ericsson, Aricent, HP, Intuit, Microsoft, Cisco, SAP Labs, Siemens, Symantec, Redhat, Chelsio, Cavium, ST-Micro, Samsung, LG-Soft, Wipro, TCS, HCL, IBM, Accenture, HSBC, Mphasis, Tata-Elxsi, Tata VSNL, Mindtree, Cognizant and Startups.
+</em>
+</div>
+</div>
+		</aside><aside id="text-71" class="widget-container widget_text">			<div class="textwidget"><div style="text-align: center; ">
+<!-- Tag ID: Sanfoundry_300x250_320x50_BTF_3 -->
+<div align="center" id="Sanfoundry_300x250_320x50_BTF_3">
+    <script data-cfasync="false" type='text/javascript'>
+        freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_3'); });
+    </script>
+</div>
+</div>
+</div>
+		</aside><aside id="text-124" class="widget-container widget_text"><h3 class="widget-title">Best Trainings</h3>			<div class="textwidget"><div class="sf-postw-category">
+<a href="https://www.sanfoundry.com/san-storage-area-networks-training/">SAN I - Technology</a><br>
+<a href="https://www.sanfoundry.com/san-administration-training-course/">SAN II - Admin</a><br>
+<a href="https://www.sanfoundry.com/linux-administration-training/">Linux Fundamentals</a><br>
+<a href="https://www.sanfoundry.com/advanced-c-programming-training/">Advanced C Training</a><br>
+<a href="https://www.sanfoundry.com/training-on-linux-debugging-techniques/">Linux-C Debugging</a><br>
+<a href="https://www.sanfoundry.com/training-on-linux-internals-systems/">System Programming</a><br>
+<a href="https://www.sanfoundry.com/training-socket-network-programming/">Network Programming</a><br>
+<a href="https://www.sanfoundry.com/training-multithreaded-parallel/">Linux Threads</a><br>
+<a href="https://www.sanfoundry.com/linux-kernel-internals-training/">Kernel Programming</a><br>
+<a href="https://www.sanfoundry.com/linux-kernel-debugging-training/">Kernel Debugging</a><br>
+<a href="https://www.sanfoundry.com/training-on-linux-device-drivers/">Linux Device Drivers</a><br>
+</div>
+</div>
+		</aside><!-- fixed widget --><aside id="text-126" class="widget-container widget_text">			<div class="textwidget"><div style="text-align: center; ">
+<!-- Tag ID: Sanfoundry_300x250_320x50_BTF_2 -->
+<div align="center" id="Sanfoundry_300x250_320x50_BTF_2">
+    <script data-cfasync="false" type='text/javascript'>
+        freestar.queue.push(function () { googletag.display('Sanfoundry_300x250_320x50_BTF_2'); });
+    </script>
+</div>
+</div>
+</div>
+		</aside>	</div><!-- #sidebar -->
+	
+		
+</div><!-- #secondary .widget-area .span3 -->					
+			</div><!-- #container .row-fluid-->
+			
+					
+		</div><!--container fluid -->
+		
+	</div><!-- container -->
+
+</div><!-- container full width -->
+
+ 
+
+<div id="footer_widgets_wrapper" class="container-full-width">
+  <div id="footer_wrapper" class="container">
+    <div id="wrapper" class="container-fluid">
+    
+        
+    <div id="footer-widgets" class="row-fluid">
+      <div id="footer-widget-container" class="span12">
+        <div class="row-fluid">
+          <aside id="text-138" class="widget-container span3 widget_text">			<div class="textwidget"><h3 class="widget-title">Best Reference Books</h3>
+<a href="https://www.sanfoundry.com/best-reference-books-computer-science-engineering/">Computer Science Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-programming-hot-technologies">Algorithm &amp; Programming Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-electrical-electronics-engineering/">Electronics Engineering Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-electrical-electronics-engineering/">Electrical Engineering Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-chemical-engineering/">Chemical Engineering Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-civil-engineering/">Civil Engineering Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-mechanical-engineering/">Mechanical Engineering Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-industrial-engineering-operations-research/">Industrial Engineering Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-instrumentation-engineering/">Instrumentation Engg Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-metallurgical-engineering/">Metallurgical Engineering Books</a><br>
+<a href="https://www.sanfoundry.com/best-reference-books-tech-engineering-sciences/">All Stream Best Books</a><br>
+</div>
+		</aside><aside id="text-137" class="widget-container span3 widget_text">			<div class="textwidget"><h3 class="widget-title">Questions and Answers</h3>
+<a href="https://www.sanfoundry.com/c-interview-questions-answers/">1000 C Questions &amp; Answers</a><br>
+<a href="https://www.sanfoundry.com/cplusplus-interview-questions-answers/">1000 C++ Questions &amp; Answers</a><br>
+<a href="https://www.sanfoundry.com/1000-csharp-questions-answers/">1000 C# Questions &amp; Answers</a><br>
+<a href="https://www.sanfoundry.com/java-questions-answers-freshers-experienced/">1000 Java Questions &amp; Answers</a><br>
+<a href="https://www.sanfoundry.com/technical-interview-questions/">1000 Linux Questions &amp; Answers</a><br>
+<a href="https://www.sanfoundry.com/1000-python-questions-answers/">1000 Python Questions</a><br>
+<a href="https://www.sanfoundry.com/1000-php-questions-answers/">1000 PHP Questions &amp; Answers</a><br>
+<a href="https://www.sanfoundry.com/1000-hadoop-questions-answers/">1000 Hadoop Questions</a><br>
+<a href="https://www.sanfoundry.com/1000-cloud-computing-questions-answers/">Cloud Computing Questions</a><br>
+<a href="https://www.sanfoundry.com/computer-science-questions-answers/">Computer Science Questions</a><br>
+<a href="https://www.sanfoundry.com/">All Stream Questions &amp; Answers</a><br>
+</div>
+		</aside><aside id="text-136" class="widget-container span3 widget_text">			<div class="textwidget"><h3 class="widget-title">India Internships</h3>
+<a href="https://www.sanfoundry.com/internships-computer-science-engineering/">Computer Science Internships</a><br>
+<a href="https://www.sanfoundry.com/internships-instrumentation-engineering/">Instrumentation Internships</a><br>
+<a href="https://www.sanfoundry.com/internships-electronics-electrical-engineering/">Electronics Internships</a><br>
+<a href="https://www.sanfoundry.com/internships-electronics-electrical-engineering/">Electrical Internships</a><br>
+<a href="https://www.sanfoundry.com/internships-mechanical-engineering/">Mechanical Internships</a><br>
+<a href="https://www.sanfoundry.com/internship-industrial-engineering/">Industrial Internships</a><br>
+<a href="https://www.sanfoundry.com/internships-systems-control-engineering/">Systems Internships</a><br>
+<a href="https://www.sanfoundry.com/internships-chemical-engineering/">Chemical Internships</a><br>
+<a href="https://www.sanfoundry.com/internships-civil-engineering/">Civil Internships</a><br>
+<a href="https://www.sanfoundry.com/internship/">IT Internships</a><br>
+<a href="https://www.sanfoundry.com/internship/">All Stream Internships</a><br>
+</div>
+		</aside><aside id="text-135" class="widget-container span3 widget_text">			<div class="textwidget"><h3 class="widget-title">About Sanfoundry</h3>
+<a href="https://www.sanfoundry.com/about/">About Us</a><br>
+<a href="https://www.sanfoundry.com/copyright/">Copyright</a><br>
+<a href="https://www.sanfoundry.com/tos-privacy-policy/">Terms</a><br>
+<a href="https://www.sanfoundry.com/privacy-policy/">Privacy Policy</a><br>
+<a href="https://www.sanfoundry.com/jobs/">Jobs</a><br>
+<a href="https://www.sanfoundry.com/coursesfees/">Bangalore Training</a><br>
+<a href="https://www.sanfoundry.com/online-training-san-linux-kernel-device-drivers/">Online Training</a><br>
+<a href="https://www.sanfoundry.com/salary-50l/">Developers Track</a><br>
+<a href="https://www.sanfoundry.com/professional-mentoring-coaching-career-guidance-cto/">Mentoring Sessions</a><br>
+<a href="https://www.sanfoundry.com/contact/">Contact Us</a><br>
+<a href="https://www.sanfoundry.com/sitemap_index.xml">Sitemap</a>
+</div>
+		</aside>         </div><!-- .row-fluid -->
+      </div><!-- #footer-widget-container -->
+    </div><!-- #footer-widgets .row-fluid  -->
+    
+        
+    	
+    
+        
+    </div><!-- #wrapper .container-fluid -->
+  </div><!-- footer wrapper -->
+</div><!-- footer widgets wrapper -->
+
+        
+          <div class="container-full-width" id="after_footer">
+                <div class="container">
+                        <div class="container-fluid">
+                                <footer class="site-footer row-fluid">
+                                        <!-- Adds the afterfooter copyright area -->
+                                        <div class="span12">
+                                                &copy; 2011<script>new Date().getFullYear()>2011&&document.write("-"+new Date().getFullYear());</script> Sanfoundry. All Rights Reserved.
+                                        </div>
+                                </footer>
+                                <!-- row-fluid -->
+                        </div>
+                        <!-- .container-fluid-->
+                </div>
+                <!-- .container -->
+        </div>    <!-- #after_footer -->
+    
+
+  
+    
+
+  
+    
+
+<script type='text/javascript'>
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+</script><script type="text/javascript">var q2w3_sidebar_options = new Array();
+q2w3_sidebar_options[0] = { "sidebar" : "sidebar-right", "margin_top" : 10, "margin_bottom" : 0, "stop_id" : "footer_widgets_wrapper", "screen_max_width" : 360, "screen_max_height" : 640, "width_inherit" : false, "refresh_interval" : 1500, "window_load_hook" : false, "disable_mo_api" : false, "widgets" : ['text-126'] };
+</script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" defer src="https://www.sanfoundry.com/wp-content/cache/autoptimize/js/autoptimize_98d43ecb3eaf7cf2e28d403309666449.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"54499ad75d292900","version":"2019.10.2","startTime":1576257585837}'></script>
+</body>
+</html>
+<!-- Dynamic page generated in 1.194 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-10-24 15:41:17 -->
+
+<!-- Compression = gzip -->
