@@ -17,11 +17,17 @@ int globalFinish;
 #include "server-heads.h"//data for sever-lobby and server-sql and server-game
 #include "server-sql.h"
 #include "server-lobby.h"
+int totalPlayers;
+bool endTime;
+int nrQues;
 #include "server-game.h"
 /* portul folosit */
 #define PORT 2908
 int timer;
+int sd;	
 void alarm_handler(int s ){
+  printf("alarm is off\n");
+  close(sd);
   timer = 0;
 }
 bool isInList(std::list<int>q,int value){
@@ -43,8 +49,7 @@ int main()
 
   struct sockaddr_in server;	// structura folosita de server
   struct sockaddr_in from;	
-  int nr;		//mesajul primit de trimis la client 
-  int sd;		//descriptorul de socket 
+  int nr;		//mesajul primit de trimis la client 	//descriptorul de socket 
   int pid;
 	int i=0;
   /* crearea unui socket */
@@ -85,11 +90,10 @@ int main()
 
   //clear baza de date care se ocupa cu stocatul clientilor
     clear_playerTable(db);
-    int index =0;
+    nrQues= nrQuestions(db);//nr intrebarilor din baza de date
+    int index =1;
     struct sigaction sa;
     sa.sa_handler = alarm_handler;
-    sigemptyset(&sa.sa_mask);
-    //sa.sa_flags = SA_RESTART;
     if(sigaction(SIGALRM, &sa, NULL) == -1){
         perror("sigaction");
         exit(1);
@@ -105,9 +109,11 @@ while (timer)
 {
     int client;
     socklen_t length = sizeof (from);
+
     client = accept (sd, (struct sockaddr *) &from, &length);  
     if(client<=0){ 
       //timer ended or some error
+      printf("end timer\n");
       break;
     }
     //insert1_PlayerTable(db,index,client);
@@ -124,24 +130,27 @@ while (timer)
     pthread_t p;
     pthread_create(&p,NULL,&login_thread,td);
 }
-sleep(login_time);//astept pentru inca login_time unitati de timp , pentru a fi sigur ca toti jucatorii au terminat cu logarea
-//in total de la login la joc va fi de asteptat un total de
-// login_time + alarm_time : adica 20 de secunde
 thData * td; 
-index = 0;
+totalPlayers = index-1;// nr total de jucatori, daca toti jucatorii au terminat se va afisa direct castigatorul
+index = 1;
+endTime = false;// folosit pentru a anunta ca so terminat toate jocurile
   for(int i = 0; i<=nfds;i++){
     if(i!=sd&&FD_ISSET(i,&rdfds)){
         td=(struct thData*)malloc(sizeof(struct thData));	
         td->idThread=index++;
         td->cl=i;
         td->db = db;
-        pthread_t p;
-        pthread_create(&p,NULL,&game,td);
+        pthread_t h;
+        pthread_create(&h,NULL,&game,td);
     }
   }
-  while(1);
-    //later
-    //the game
+  sleep(nrQues*seconds); 
+  endTime=true;//anunt threadurile ca so terminat timpul de joc si ca trebui sa trimita castigatorul la clienti
+  while(1){
+    sleep(1);
+    printf("infinit\n");
+  }
+
 
   return 0;
 };				

@@ -3,10 +3,19 @@
 #include<string>
 #include<vector>
 #include<iostream>
-#define nr_rounds 10
+#define nr_rounds nrQues
 //just sends and gets information
-#define seconds 20
+#define seconds 10
 #define goodAnswer 1
+
+int nrQuestions(sqlite3 *db ){
+    mydata records;
+    char sql[1000];
+    bzero(sql,sizeof(sql));
+    sprintf(sql,"select count(*) from questions;");
+    sqlite3_exec(db,sql,selectcalback,&records,&Zerrmsg); 
+    return atoi(records[0][0].c_str());
+}
 
 void sendScore(int capacity, sqlite3 *db,mydata &records,int sd){
     char sql[1000];
@@ -14,18 +23,73 @@ void sendScore(int capacity, sqlite3 *db,mydata &records,int sd){
     bzero(sql,sizeof(sql));
     sprintf(sql,"select nume,score,id from player where id is not null order by score desc limit %d;",capacity);
     sqlite3_exec(db,sql,selectcalback,&records,&Zerrmsg);
-    int size;
+    int size=records.size();
+    write(sd,&size,sizeof(int));
     char buff[10000];
+    int index =1;
+    int curScore = atoi(records[0][1].c_str());
     for(auto i :records){
-        bzero(buff,sizeof(buff));
-        for(auto j : i)
-        {
-            strcat(buff,j.c_str());
-            strcat(buff,"::");
+        int score = atoi(i[1].c_str());
+        if(curScore>score){
+            index++;
+            curScore=score;
         }
+        bzero(buff,sizeof(buff));
+        sprintf(buff,"Loc %d ::Nume %s ::Scor %s::ID %s ",index,i[0].c_str(),i[1].c_str(),i[2].c_str());
+        bzero(&size,sizeof(int));
         size= strlen( buff);
         write(sd,&size,sizeof(int));
         write(sd,buff,size);
+    }
+}
+
+
+const char * getNume(sqlite3 *db , int client){
+    mydata records;
+    char sql[1000];
+    sprintf(sql,"select nume from player where client='%d';",client);
+    sqlite3_exec(db,sql,selectcalback,&records,&Zerrmsg);
+    return records[0][0].c_str();
+}
+void sendPlacement(const char * nume, sqlite3 *db,mydata &records,int sd){
+    char sql[1000];
+    records.clear();
+    bzero(sql,sizeof(sql));
+    sprintf(sql,"select nume, score, (select count(*) from (select distinct p3.score from player p3 join player p4 on p3.score!=p4.score) p1 where p.score<p1.score),id from player p where nume ='%s';",nume);
+    sqlite3_exec(db,sql,selectcalback,&records,&Zerrmsg);
+    char buff[1000];
+    int size;
+    for(auto i :records){
+        bzero(buff,sizeof(buff));
+        char tmp[100];
+        int d= atoi(i[2].c_str());
+        bzero(tmp,sizeof(tmp));
+        sprintf(tmp,"%d",d+1);
+        printf("%s\n",tmp);
+        sprintf(buff,"%s::Scor %s :: Loc %s :: ID %s",i[0].c_str(),i[1].c_str(),tmp,i[3].c_str());
+        bzero(&size,sizeof(int));
+        size= strlen( buff);
+        write(sd,&size,sizeof(int));
+        write(sd,buff,size);
+    }
+}
+void sendWinner(sqlite3 *db,mydata &records,int sd){
+    char sql[1000];
+    records.clear();
+    bzero(sql,sizeof(sql));
+    sprintf(sql,"select nume,score,id from player where id is not null order by score desc limit 1;");
+    sqlite3_exec(db,sql,selectcalback,&records,&Zerrmsg);
+    char buff[1000];
+    int size;
+    for(auto i :records){
+        bzero(buff,sizeof(buff));
+        sprintf(buff,"%s::Scor %s :: Loc %s :: ID %s",i[0].c_str(),i[1].c_str(),"1",i[2].c_str());
+        bzero(&size,sizeof(int));
+        printf("%s\n",buff);
+        size= strlen(buff);
+        write(sd,&size,sizeof(int));
+        write(sd,buff,size);
+        break;
     }
 }
 void insert_score(sqlite3 *db, mydata &records, int client, int score){
@@ -116,9 +180,10 @@ void *game(void * arg){
                break;
                }
            else if (retval){
-        
+               printf("SOMETHING HAS BEEN SEND.\n");
                bzero(buff,sizeof(buff));
                read(fd,buff,1);//get answer from client
+               printf("%s\n",buff);
                 if(buff[0]=='0'){
                     printf("Client has left\n");
                     close(fd);
@@ -136,34 +201,41 @@ void *game(void * arg){
                     }
                     else 
                     {score +=1; }
-                    printf("%d %d \n",tdL.cl, score);
-                    fflush(stdout);
                     insert_score(tdL.db,records,tdL.cl,score);
                 }
             }
            else
                {
                    printf("No data sent.\n");
+                   fflush(stdout);
                }
     }
+    write(fd,"R",1);
     //SHOW SCORE
+    localFinish = 0;
     ++globalFinish;
-    localFinish=globalFinish;
     int capacity ;
+    const char * nume = getNume(tdL.db,tdL.cl);
     read(fd,&size,sizeof(int));
-    read(fd,buff,size);
-    capacity=atoi(buff);
-    
-    while(1){//pana cand jocul e gata practic
+    capacity=size;
+    while(1){
 
-        if(localFinish!=globalFinish)
+        if(globalFinish==totalPlayers||endTime==true){
+            write(fd,"0",1);
+            sendScore(capacity,tdL.db,records,fd);   
+            sendPlacement(nume,tdL.db,records,fd);
+            sendWinner(tdL.db,records,fd);
+            break;
+        }
+        else if(localFinish!=globalFinish)
         {  
             // update the user
+            write(fd,"1",1);
+            localFinish=globalFinish;
             sendScore(capacity,tdL.db,records,fd);   
+            sendPlacement(nume,tdL.db,records,fd);
         }
-
     }
-
-
+    printf("FINISHED\n");
     return NULL;
 }

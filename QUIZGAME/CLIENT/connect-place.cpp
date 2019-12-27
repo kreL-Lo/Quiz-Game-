@@ -8,9 +8,12 @@
 #include <stdlib.h>
 #include <netdb.h>
 #include <string.h>
+#include <string>
 #include<errno.h>
 #include "connection.h"
 #include "game.cpp"
+
+
 
 
 
@@ -93,7 +96,6 @@ void play_connect(sf::RenderWindow & window){
     
     window.draw(text[0]);
     window.draw(text[1]);
-    window.display();
     int back= 0;
     sf::String playerInput[3];
     sf::Text playerText[3];
@@ -112,7 +114,14 @@ void play_connect(sf::RenderWindow & window){
     //defaut parameters
     playerInput[0]="127.0.0.1";
     playerInput[1]="2908";
-    playerInput[2]="USER";
+    srand(time(NULL));
+    char words[]="bcdfghjklmnpqrstvwxyzaeiouy";
+    int lenght = strlen(words);
+    string name="";
+    for(int i =0;i<5;i++){
+        name+=words[rand()%lenght];
+    }
+    playerInput[2]=name;
     for(int i =0;i<3;i++){
         playerText[i].setString(playerInput[i]);
         window.draw(playerText[i]);
@@ -136,7 +145,6 @@ void play_connect(sf::RenderWindow & window){
     myServer_display.setOutlineThickness(1);
     window.draw(myServer_display);
     window.draw(sv_display);
-    
     window.display();
     //SERVER ACTIVITIES
     bool connected=0;

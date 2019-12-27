@@ -53,6 +53,7 @@ int main()
         window.draw(text[i]);}
     int out =0;
     
+    
     window.display();
     while (window.isOpen()||out)
     {
@@ -70,8 +71,8 @@ int main()
                         //rect.setPosition(x,y)
                         if(checkButton(x,y,menuButton[0])){
 
-                            //play_connect(window);
-                            results(window,10);
+                            play_connect(window);
+                            //results(window,10);
                             window.clear();
                             window.draw(myMenuButtons[0]);
                             window.draw(myMenuButtons[2]);

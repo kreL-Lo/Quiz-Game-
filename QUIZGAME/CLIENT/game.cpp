@@ -76,12 +76,15 @@ void * receiving(void *arg){
                 }
                     receive=true;
         }
+        read(fd,container,1);//practic un semnal de a astepta pana cand sa fie gata
+        bzero(container,sizeof(container));
         over = true;
     return NULL;
 }
 //each user would look like this ORDER-NUMBER NAME 
 void game(sf::RenderWindow & window,int sd){
     window.clear();
+    std::cout<<"Game"<<std::endl;
     fd= sd;
     over = false;
     font.loadFromFile("Arial.ttf");
@@ -123,17 +126,8 @@ void game(sf::RenderWindow & window,int sd){
         drawStuff(wS,window);
         window.draw(clocker);
         window.display();
-        if(over == true){
-            f= nrSec-clock.getElapsedTime().asSeconds();
-            if(f<0||lastSend){
-                results(window,sd);
-                window.close();
-                exit(1);
-            }
-        }
         if(receive == true){
             wS=0;
-        
             clock.restart();
             for(int i =0;i<5;i++)
                 pressButtons[i].setOutlineColor(sf::Color(118, 215, 196));
@@ -152,7 +146,10 @@ void game(sf::RenderWindow & window,int sd){
             window.display();
             receive=false;
         }
-        
+         if(over == true){
+             //astept semnalul de la server sa zic daca pot intra in rezultate
+            results(window,sd);
+        }
         sf::Event event; 
         while(window.pollEvent(event)){
             switch(event.type){

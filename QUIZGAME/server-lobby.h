@@ -33,27 +33,26 @@ void * login_thread(void * arg){
     pthread_detach(pthread_self());
     thData tdL ;
     tdL= *((struct thData*)arg);
-    fd_set rfds;
+    fd_set rf;
     int fd = tdL.cl;
     struct timeval tv;
     tv.tv_sec=login_time;
     tv.tv_usec=0;
-    FD_ZERO(&rfds);
-    FD_SET(fd,&rfds);
+    FD_ZERO(&rf);
+    FD_SET(fd,&rf);
     char container[1000];
     int size;
     std::cout<<"login thread\n";
     int time = login_time;// time to end
     bool isIn =false;
     while(time>0&&isIn==false){// while  ca sa-i tot dau jucatorului incercari de a se loga cu un nume care nu-i in baza de date
-        int retval =select(fd+1, &rfds,NULL,NULL,&tv);//astept un raspuns in n secunde ;
+        int retval =select(fd+1, &rf,NULL,NULL,&tv);//astept un raspuns in n secunde ;
         if(retval==-1){
             perror("select()");
             break;
         }
         else if(retval){
             //get answer
-            printf("something has been sent\n");
             bzero(container,sizeof(container));
             int r= read(fd,&size,sizeof(int));
             if(r==0){
@@ -67,6 +66,7 @@ void * login_thread(void * arg){
             }
             else{
                 write(fd,"1",1);// nu este in baza de date
+                std::cout<<"inserting into slq\n";
                 //adaug in baza de date
                 insert_PlayerTable(tdL.db,tdL.idThread,tdL.cl,container);
                 isIn = true;
@@ -74,14 +74,14 @@ void * login_thread(void * arg){
         }
         else{
             //
-            printf("no data was send bruh\n");
+            printf("no data was send \n");
         }
             std::cout<<time<<std::endl;
             time = tv.tv_sec;
             tv.tv_sec=time;
             tv.tv_usec=0;
-            FD_ZERO(&rfds);
-            FD_SET(fd,&rfds);
+            FD_ZERO(&rf);
+            FD_SET(fd,&rf);
     }
     if(isIn == false){//trimit ca nu mai are timp de raspuns si inchid conexiunea
         read(fd,&size,sizeof(int));
