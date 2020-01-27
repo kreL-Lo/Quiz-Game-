@@ -9,7 +9,7 @@ Disclaimer : Universtiy project made that has the following  :
 
     After that the game begins , each players gets a set of questions and possible answers
  
-    In the end each player gets the score, winner and a list of 10 players .
+    In the end each player gets the score, winner and a list of top 10 players .
  
     Each actions is handled by the server (sending Question, managing players  ,etc )
  
