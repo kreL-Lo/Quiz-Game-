@@ -1,6 +1,6 @@
 Tcp  :  server/client Quiz Game
 
-Universtiy project made that has the following  :
+Disclaimer : Universtiy project made that has the following  :
 
 1) Data-base to store active players(score,during game) and  questions;
 
